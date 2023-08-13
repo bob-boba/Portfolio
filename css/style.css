@@ -156,7 +156,18 @@ span{
     font-weight: 600;
     transition: .5s ease;
 }
-
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+   }
+   .back p {
+    font-size: 3rem;
+    
+    
+   }
 .btn:hover {
     box-shadow:  0 0 1rem var(--main-color);
 }
