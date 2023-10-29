@@ -1,4 +1,5 @@
 # newthing
 Hello, It's Me
 Nechnache Aboubakr
-And I'm a Frontend develepor
+I'm a Frontend develepor , Software developer and more ...
+
