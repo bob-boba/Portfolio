@@ -80,7 +80,7 @@ section{
     align-items: center;
 }
 .home-img img {
-    width: 40vw;
+    width: 25vw;
     border-radius: 50%;
     box-shadow: var(--main-color) 0px  5px 30px;
     border: 1px solid rgb(143, 108, 108);
@@ -182,7 +182,7 @@ span{
 
 
 .about-img img {
-    width: 35vw;
+    width: 25vw;
     border-radius: 50%;
     box-shadow:  rgba(60, 221, 233, 0.719) 0px  5px 30px;
     border: 1px solid rgb(143, 108, 108);
