@@ -54,9 +54,39 @@ ScrollReveal({
 
 /**---------------------- tyoed js ---------------------------- */
 const typed = new Typed('.moltiple-text', {
-    strings: ['Frontend Developer', 'Graphic Designer','Project Manager'],
-    typeSpeed: 100,
-    backSpeed: 100,
+    strings: ['Software Enginner', 'Graphic Designer','Frontend Developer'],
+    typeSpeed: 80,
+    backSpeed: 40,
     backDelay: 1000,
     loop: true
 });
+/**---------------------- read more about me---------------------------- */
+function MoreLess() {
+    var text_more  = document.querySelector('#read-more-text');
+    var btn  = document.querySelector('#BTN');
+    if(text_more.style.display == "none"){
+        text_more.style.display= "inline";
+        btn.innerHTML="Read Less";
+    }else{
+        text_more.style.display= "none";
+        btn.innerHTML="Read More"; 
+    }
+}
+/**---------------------- EmailSubject()---------------------------- */
+function EmailSubject(val1) {
+    var text_more  = document.querySelector('#subject');
+    text_more.value = val1 ;
+}
+/**---------------------- Email sender ---------------------------- */
+
+Email.send({
+    Host : "smtp.google.com",
+    Username : "aboubakre.nechnache",
+    Password : "password",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
