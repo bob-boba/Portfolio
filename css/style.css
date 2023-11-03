@@ -486,7 +486,12 @@ span{
    .navbar.active{
     display: block;
    }
-
+   .My_Journey .education-row {
+   
+    display: block;
+    
+    
+}
    .navbar a {
     display: block;
     font-size: 2rem;
