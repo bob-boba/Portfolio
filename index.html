@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Personal Portfolio</title>
     <!-- box icons-->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <!-- costom css-->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,11 +15,11 @@
     <!-- header design-->
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class="bx bx-menu" id="menu-icon"></i>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#education">Education</a>
+            <a href="#My_Journey">Education</a>
             <a href="#services">Services</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
@@ -33,16 +33,17 @@
             <h1>Nechnache Aboubakr</h1>
             <h3>And I'm a <span class="moltiple-text"></span></h3>
             <p>Efficient worker, Cooperative with team members, Always seeking to improving my skills
+              
             </p>
             <div class="social-media">
-                    <a href="https://web.facebook.com/profile.php?id=100013775613320"><i class='bx bxl-facebook' ></i></a>
-                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="#"><i class='bx bxl-whatsapp' ></i></a>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
+                    <a href="https://web.facebook.com/profile.php?id=100013775613320"><i class="bx bxl-facebook" ></i></a>
+                    
+                    <a href="www.linkedin.com/in/aboubakr-nechnache-156b80229"><i class="bx bxl-linkedin" ></i></a>
+                    <a href="https://wa.me/213698224588?"><i class="bx bxl-whatsapp" ></i></a>
+                    <a href="https://github.com/bob-boba"><i class="bx bxl-github" ></i></a>
                     
                 </div>
-            <a href="https://drive.google.com/uc?ewport=download&id=1ZMHmWpgKKy8RqHJSgtRbBs0q6bjw_-Z-" class="btn">Download CV</a>
+            <a href="#" class="btn">Download CV</a>
         </div>
         <div class="home-img">
             <img src="images/aboubakr-nechnache_1.png" alt="">
@@ -57,19 +58,23 @@
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Web Devoleper and more ... </h3>
-            <p>I am an optimistic person, open to learning new skills,
-                a great listener, i have a profound understanding of various programming 
-                languages such: java, python and c/c++.
-                i efficiently solve programming challenges and issues logically and 
-                creatively
+            <p>I am an optimistic person, open to learning new skills, a great listener, i have a profound understanding of various programming languages such: java, python and c/c++.
+                i efficiently solve programming challenges and issues logically and creatively  <br>
+                <span id="read-more-text">
+                    A skilled motivated software developer with a master degree in artificial intelligence with 1 year experience 
+                    in Algeria. I masterly use programming languages, especially Python, Java, JavaScript and HTML5/CSS3. 
+                    Qualified for making user interference easier to handle, I have the necessary skills to deal with various situations and overcome obstacles, I'm looking to use my skills and abilities to contribute to the success of your company. I'm seeking a position as 
+                    a software developer where extensive experience will be further developed and utilised
+                </span>
+
             </p>
             
-            <a href="#" class="btn">Read More</a>       
+            <a id="BTN" class="btn" onclick="MoreLess()">Read More</a>       
         </div>
             
     </section>
     <!-- education section design-->
-    <section class="education" id="education">
+    <section class="My_Journey" id="My_Journey">
         <h2 class="heading">My <span>Journey</span></h2>
         <div class="education-row">
             <div class="education-column">
@@ -77,16 +82,20 @@
                 <div class="education-box">
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i> 2015 - 2020</div>
+                            <div class="year"><i class="bx bxs-calendar"></i> 2015 - 2020</div>
                             <h3>Bachelor's Degree - University of Jijel </h3>
-                            <p>Domain: Mathematics and Computer Science <br>Course of stody: Computer Science <br><h5>Speciality: Computing Systems</h5></p>
+                            <p>Domain: Mathematics and Computer Science <br>
+                                Course of stody: Computer Science <br>
+                                <h5>Speciality : <span>Computing Systems</span></h5></p>
                         </div>
                     </div>
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i> 2020 - 2022</div>
+                            <div class="year"><i class="bx bxs-calendar"></i> 2020 - 2022</div>
                             <h3>Master's Degree - University of Jijel </h3>
-                            <p>Domain: Mathematics and Computer Science <br>Course of stody: Computer Science <br><h5>Speciality: Artificial Intelligence</h5></p>
+                            <p>Domain: Mathematics and Computer Science <br>
+                                Course of stody: Computer Science <br>
+                                <h5>Speciality : <span>Artificial Intelligence</span></h5></p>
                         </div>
                     </div>
                 </div>
@@ -96,17 +105,34 @@
                 <h3 class="title">Experience</h3>
                 <div class="education-box">
                     <div class="education-content">
+
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i> 2020 - 2023</div>
-                            <h3>Web Devoleper  </h3>
-                            <p>Self employee</p>
+                            <div class="year"><i class="bx bxs-calendar"></i>Jijel, Algeria JAN 2019 – MAY 2020</div>
+                            <h3> STS Informatique DZ  </h3>
+                            <p>I worked at STS as a<br>
+                                ►Computer seller and repairman.<br>
+                                ► Software installer, computer reprogrammer, and program reset.<br>
+                                ► STS website manager, administrator and repairer</p>
                         </div>
                     </div>
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i> 2020 - 2023</div>
-                            <h3>Project Manager </h3>
-                            <p>Self employee</p>
+                            <div class="year"><i class="bx bxs-calendar"></i> DES 2020 – Now</div>
+                            <h3> Fiverr software Devoleper </h3>
+                            <p>I created software for the Algerian company Condor<br>
+                            software to monitor and track manufactured products.<br>
+                            Software to monitor and manage inventory</p>
+                        </div>
+                        
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i> DES 2020 – Now</div>
+                            <h3>Web Devoleper  </h3>
+                            <p>Self employee<br>
+                                Create this site <br>
+                                website manager, administrator and repairer
+                            </p>
                         </div>
                     </div>
                     
@@ -121,53 +147,51 @@
         <h2 class="heading">Our <span>Services</span></h2>
         <div class="services-container">
             <div class="services-box">
-                <i class='bx bx-code-alt' ></i>
+                <i class="bx bx-code-alt" ></i>
                 <h3>Web Devolepment</h3>
-                <p>Lorem ipsum dolor sit amet consectetur,
-                     adipisicing elit. Laudantium earum, 
-                    perspiciatis similique quisquam velit cum maiores!
+                <p>Create websites<br>
+                    Modifying Repairing  Improving and facilitating the interface
+                    <br>
                 </p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#contact" class="btn" onclick="EmailSubject('Web Devolepment')">Contact me</a>
             </div>
         
-            <div class="services-box">
-                <i class='bx bxl-python' ></i>
-                <h3>Python Project</h3>
-                <p>Lorem ipsum dolor sit amet consectetur,
-                     adipisicing elit. Laudantium earum, 
-                    perspiciatis similique quisquam velit cum maiores!
-                </p>
-                <a href="#" class="btn">Read More</a>
-            </div>
+           
         
             <div class="services-box">
-                <i class='bx bx-code-curly' ></i>
+                <i class="bx bx-code-curly" ></i>
                 <h3>Java Project</h3>
-                <p>Lorem ipsum dolor sit amet consectetur,
-                     adipisicing elit. Laudantium earum, 
-                    perspiciatis similique quisquam velit cum maiores!
+                <p>Developing Desktop Software <br> storage management<br>Games
                 </p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#contact" class="btn" onclick="EmailSubject('Java Project')">Contact me</a>
             </div>
             <div class="services-box">
-                <i class='bx bxs-paint' ></i>
+                <i class="bx bxs-paint" ></i>
                 <h3>Graphic Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur,
-                     adipisicing elit. Laudantium earum, 
-                    perspiciatis similique quisquam velit cum maiores!
+                <p>Social Media Posts<br>
+                    Illustrator and Photoshop 
                 </p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#contact" class="btn" onclick="EmailSubject('Graphic Design')">Contact me</a>
             </div>
             <div class="services-box">
-                <i class='bx bx-bar-chart-alt' ></i>
-                <h3>Digital Marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur,
-                     adipisicing elit. Laudantium earum, 
-                    perspiciatis similique quisquam velit cum maiores!
+                <i class="bx bxl-python" ></i>
+                <h3>Python Project</h3>
+                <p>Developing storage management<br> games and data analysis <br>
+                    Familiar with :<br>
+                    pyQT tkenter pygame pandas <br> TensorFlow Matplotlib NumPy opencv<br>
+                    
+
                 </p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#contact" class="btn" onclick="EmailSubject('Python Project')">Contact me</a>
             </div>
-        
+            <div class="services-box">
+                <i class="bx bx-bar-chart-alt" ></i>
+                <h3>Digital Marketing</h3>
+                <p>Developing social-media Posts,marketing campaings <br>improve page content keyword relevant 
+                </p>
+                <a href="#contact" class="btn" onclick="EmailSubject('Digital Marketing')">Contact me</a>
+            </div>
+        </div>
 
 
     </section>
@@ -179,38 +203,36 @@
             <div class="portfolio-box">
                 <img src="images/portfolio.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolorimpedit ssapiente 
-                          ducimus!</p>
-                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                    <h4>Post Design</h4>
+                    <p>Social media Posts</p>
+                    <a href="https://github.com/bob-boba/picture-design" target="_blank"><i class="bx bx-link-external" ></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
                 <img src="images/portfolio1.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Game with pygame</h4>
-                    <p>Lorem sllosos scls aut sapiente!
+                    <p>a simple snake game
                         </p>
-                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://github.com/bob-boba/pyhton-project/tree/main/snake%20game" target="_blank"><i class="bx bx-link-external" ></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
                 <img src="images/portfolio2.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Python Project</h4>
-                    <p>Lorem ipsumvoluptate,
-                         sapiente ducimus
-                        !</p>
-                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                    <p> a blind agent using artificial intelligence
+                        </p>
+                    <a href="https://github.com/bob-boba/pyhton-project/tree/main/blinde%20agent" target="_blank"><i class="bx bx-link-external" ></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
                 <img src="images/portfolio3.png" alt="">
                 <div class="portfolio-layer">
                     <h4>JAVA Project</h4>
-                    <p>Lorem ipsumtatemaut sapiente ducimus!
+                    <p>storage management Project
                         </p>
-                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://github.com/bob-boba/java-project" target="_blank"><i class="bx bx-link-external" ></i></a>
                 </div>
             </div>
         </div>
@@ -220,22 +242,16 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-       <form action="https://formsubmit.co/ef6bd22c5708fa67e5ec883ecf476d11" method="POST" >
-             <!--honeypot-->
-           <input type ="text" name="_honey" style="display: none;">
-
-            <!-- display captcha-->
-            <input type ="hidden" name="_captcha" value ="false">  
-           <input type ="hidden" name="_next" value ="https://bob-boba.github.io/Portfolio/succses.html">
-           <div class="input-box">
-                <input type="text" name="Full Name" placeholder="Full Name">
-                <input type="email" name="Email Address" placeholder="Email Address">
+        <form action="https://formsubmit.co/aboubakre.nechnache@gmail.com" method="POST" >
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
             </div>
             <div class="input-box">
                 <input type="number" name="Mobile Number" placeholder="Mobile Number">
-                <input type="text"  name= "Email Subject" placeholder="Email Subject">
+                <input type="text" placeholder="Email Subject" id="subject">
             </div>
-            <textarea name="id=" id="" cols="30" rows="10" name="Message" placeholder=" Your Message"></textarea>
+            <textarea  id="" cols="30" rows="10" name="Message" placeholder=" Your Message"></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
@@ -247,13 +263,14 @@
            
         </div>
         <div class="fouter-icontop">
-            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
         </div>
     </fouter>
 
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    
+    <!-- email sender -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <!-- typed js  -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- costom js -->
