@@ -120,7 +120,62 @@ span{
     font-size: 1.6rem;
 
 }
+.menu-button {
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: none;
+    
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.menu-button:hover {
+    box-shadow:  0 0 1rem var(--main-color);
+}
 
+/* Styles for the menu */
+.menu {
+    display: none;
+    
+    position: relative;
+    background-color:  var(--bg-color);
+    padding: none;
+    z-index: 1;
+}
+
+/* Style for menu items */
+.menu a {
+    display: flexbox;
+    
+     
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: none;
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+   
+    font-weight: 600;
+    
+    transition: .5s ease;
+}
+
+/* Style for menu items on hover */
+.menu a:hover {
+    box-shadow:  0 0 1rem var(--main-color);
+    transform:  scale(1.102);
+    
+}
+
+/* Show the menu when button is clicked */
+.menu-button:focus + .menu,
+.menu:hover {
+    display: inline-block;
+    
+}
 .social-media a {
     display: inline-flex;
     justify-content: center;
